@@ -1,0 +1,93 @@
+fajl.uj=New
+fajl.megnyit=Open
+fajl.ment=Save
+szerk.beszur=Insert a line
+szerk.import=Import from file
+szer.modosit=Edit
+szerk.fel=Move up
+szerk.le=Move down
+szerk.torol=Delete
+fut.indit=Run
+fut.leptet=Step
+fut.stop=Terminate
+fajl.nevjegy=About
+fajl.kilep=Quit
+
+rendszer=System panel
+rendszer.regiszter=Registers
+rendszer.utasitas=Current command:
+rendszer.jelenlegi=Position:
+rendszer.verem=Stack:
+rendszer.kimenet=Output:
+rendszer.sebesseg=Processing speed
+rendszer.sebesseg.max=Maximum speed
+rendszer.sebesseg.1=1 process/sec
+rendszer.sebesseg.1/2=1 process/2 sec
+rendszer.sebesseg.1/5=1 process/5 sec
+rendszer.nyelv=Language:
+
+'Névjegy
+nevjegy.szoveg=8 registered assembly emulator
+nevjegy.forditas=Translation:
+nevjegy.forditas.szoveg=English module by Ákos Muráti
+nevjegy.koszonet=Credits:
+
+
+'szerkesztõ
+kodszerk=Code Editor
+kodszerk.utasitas=Command:
+kodszerk.p1=1st argument:
+kodszerk.p2=2nd argument:
+kodszerk.megjegyzes=Comment:
+kodszerk.felvesz=&Insert
+kodszerk.modosit=&Modify
+kodszerk.megse=&Cancel
+
+[Szövegek]
+1=Direct valuation from unknown register
+2=Can't modify the value of an unknown register
+3=Please enter the new value of <!> register:
+4=Output:
+5=Unknown Command or syntax error
+6=The program has finished in <!> step(s).
+7=Please clickTerminate button for resetting the memory!
+
+8=Are you sure want to start a new program?
+9=New program...
+
+10=Are you sure want to delete the selected line?
+11=Deleting confirmation...
+
+12=Are you sure want to quit the program?
+13=Quit...
+
+14=Open an assembly source...
+15=Text file
+16=Assembly source
+17=All files
+
+18=Import an assembly source...
+19=Save the program...
+
+
+[Parancs súgók]
+REM=Insert a comment.
+INP=Get a number from the user. INP <reg> <default>
+LET=Get a number from the given memory address. LET <reg> <addr>
+STR=Put a number to the actual memory address. STR <number>
+ADD=Addition. The result stored in the 1st register. ADD <reg> <reg>
+SUB=Subtraction. The result stored in the 1st register. SUB <reg> <reg>
+INC=Increase the value of the register. INC <reg>
+DEC=Decrease the value of the register. DEC <reg>
+MLP=Multiply. The result stored in the 1st register. MLP <reg> <reg>
+DIV=Integer division. The result stored in the 1st register. DIV <reg> <reg>
+MOV=Move the 2nd register's value into the 1st. MOV <reg> <reg>
+JMP=If X=Y, then jump to the given memory address. JMP <addr>
+SIG=If X>Y, then jump to the given memory address. SIG <addr>
+GTO=Jump to the given memory address. GTO <addr>
+GSB=Calls a subrutin from the given memory address. RET returns to the next line. GSB <addr>
+RET=Returns to the next line after GSB. RET <addr>
+OUT=Write out a value of a register or number. OUT <reg/value>
+END=Terminate the program
+        
+        

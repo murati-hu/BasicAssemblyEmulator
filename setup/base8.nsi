@@ -72,7 +72,7 @@ Section "Példaprogramok" peldak
 	detailprint ">>> Példaprogramok másolása..."
 	createdirectory "$INSTDIR\peldak"
 	SetOutPath "$INSTDIR\peldak"
-	file "..\prg\*.*"
+	file "..\asm\*.*"
 	detailprint ""
 sectionend
 
